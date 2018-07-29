@@ -3,7 +3,7 @@ body {
 
     font-family: 'Montserrat', sans-serif;
     color: rgb(87, 87, 87);
-    font-size: 18px;
+    font-size: 17px;
 }
 
 img {
@@ -35,7 +35,7 @@ img.expanded {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     color: #222;
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 1em;
     padding-right: 1em;
 }
