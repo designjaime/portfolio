@@ -36,7 +36,7 @@ img.expanded {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     color: #222;
-    font-weight: 300;
+    font-weight: 400;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -170,7 +170,7 @@ video {
     font-weight: 400;
     font-size: 30px;
     margin: 20px 0 0 0;
-    transform: translateX(200px);
+   transform: translateX(200px);
 }
 
 .tile p {
