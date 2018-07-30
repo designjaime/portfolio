@@ -63,7 +63,7 @@ nav {
     color: #2ad2b0;
 }
 mark{
-    background-color: #ffe0e0;
+    background-color: #fde00768;
     opacity:20%;
 }
 
@@ -365,4 +365,8 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #2ad2b0;
     color: #ffffff;
+}
+
+.flex-column { 
+    max-width : 260px;
 }
