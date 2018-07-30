@@ -4,6 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(87, 87, 87);
     font-size: 17px;
+    font-weight: 300;
 }
 
 img {
@@ -35,7 +36,7 @@ img.expanded {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     color: #222;
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -108,11 +109,12 @@ hr.style1 {
 
 .profileImg {
     width: 70%;
-    border-radius: 50%;
+    
+    
 }
 
 p {
-    line-height: 36px;
+    line-height: 24px;
     display: block;
 }
 
