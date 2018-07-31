@@ -367,9 +367,6 @@ input[type=submit]:hover {
     color: #ffffff;
 }
 
-.flex-column { 
-    max-width : 260px;
-}
 
 .btn-outline-primary {
     color: #2ad2b0;

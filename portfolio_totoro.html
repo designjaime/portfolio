@@ -27,6 +27,10 @@
         img {
             margin: 5px;
         }
+
+        .flex-column {
+            max-width: 350px;
+        }
     </style>
 
 </head>
@@ -75,22 +79,32 @@
                     data-placement="bottom" data-content="Tablet Menu, Responsive Website">UX/UI Design</a>
                 <a tabindex="0" class="btn btn-outline-primary" role="button" data-toggle="popover" data-trigger="focus"
                     data-placement="bottom" data-content="Bowl,T-shirt,Business Card,Signage">Visual Design</a>
+                <a tabindex="0" class="btn btn-outline-primary" role="button" data-toggle="popover" data-trigger="focus"
+                    data-placement="bottom" data-content="Photos for menu, website">Photography</a>
             </p>
         </div>
     </div>
+    <br>
     <div class="container-fluid">
         <div class="d-flex flex-row flex-wrap justify-content-center">
-            <div class="d-flex flex-column">
-                <img src="img/totoro/grid/holdingramen.JPG" class="img-fluid">
-                <img src="img/totoro/grid/ramen.JPG" class="img-fluid"> </div>
-            <div class="d-flex flex-column">
-                <img src="img/totoro/grid/banner.JPG" class="img-fluid">
-                <img src="img/totoro/grid/sign.JPG" class="img-fluid"> </div>
-            <div class="d-flex flex-column">
-                <img src="img/totoro/grid/bizcard.JPG" class="img-fluid">
-                <img src="img/totoro/grid/black garlic3.jpg" class="img-fluid"> </div>
-            <div class="d-flex flex-column">
-                <img src="img/totoro/grid/wall.JPG" class="img-fluid"> </div>
+            <figure class="figure d-flex flex-column">
+                <a href="img/totoro/grid/holdingramen.JPG" data-toggle="lightbox" data-gallery="parkfinder-pages-gallery">
+                    <img class="img-fluid" src="img/totoro/grid/holdingramen.JPG"> </a>
+                <a href="img/totoro/grid/ramen.JPG" data-toggle="lightbox" data-gallery="parkfinder-pages-gallery">
+                    <img class="img-fluid" src="img/totoro/grid/ramen.JPG"> </a>
+            </figure>
+            <figure class="figure d-flex flex-column">
+                <a href="img/totoro/grid/banner.JPG" data-toggle="lightbox" data-gallery="parkfinder-pages-gallery">
+                    <img class="img-fluid ml-3" src="img/totoro/grid/banner.JPG"> </a>
+                <a href="img/totoro/grid/sign.JPG" data-toggle="lightbox" data-gallery="parkfinder-pages-gallery">
+                    <img class="img-fluid ml-3" src="img/totoro/grid/sign.JPG"> </a>
+            </figure>
+            <figure class="figure d-flex flex-column">
+                <a href="img/totoro/grid/bizcard.JPG" data-toggle="lightbox" data-gallery="parkfinder-pages-gallery">
+                    <img class="img-fluid ml-4" src="img/totoro/grid/bizcard.JPG"> </a>
+                <a href="img/totoro/grid/wall.JPG" data-toggle="lightbox" data-gallery="parkfinder-pages-gallery">
+                    <img class="img-fluid ml-4" src="img/totoro/grid/wall.JPG"> </a>
+            </figure>
         </div>
     </div>
     <div class="container project_image">
