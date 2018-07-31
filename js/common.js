@@ -1,4 +1,5 @@
 // Auto complete code for Animate.css 
+// Jaime Yoon Logo Title Animation
 $.fn.extend({
     animateCss: function (animationName, callback) {
         var animationEnd = (function (el) {
@@ -27,10 +28,12 @@ $.fn.extend({
 
 });
 
-$('#show').on('click', function () {
-    $('.card-reveal').slideToggle('slow');
+$('[data-toggle="popover"]').popover()
+$(".logo").mouseover(function () {
+    $('.logo').animateCss('pulse');
 });
 
-$('.card-reveal .close').on('click', function () {
-    $('.card-reveal').slideToggle('slow');
+$("[data-toggle='lightbox']").click(function (e) {
+    e.preventDefault();
+    $(this).ekkoLightbox();
 });
