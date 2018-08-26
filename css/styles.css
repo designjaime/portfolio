@@ -1,17 +1,3 @@
-body {
-
-
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(87, 87, 87);
-    font-size: 17px;
-    font-weight: 300;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-}
-
 img.expanded {
     max-width: none;
 }
@@ -30,53 +16,6 @@ img.expanded {
     max-width: 2000px;
 }
 
-
-.navbar-light .navbar-nav .nav-link {
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
-    color: #222;
-    font-weight: 400;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.logo {
-    font-family: 'Montserrat', sans-serif;
-
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: #2ad2b0;
-}
-
-.logo:hover {
-    color: #222;
-    text-decoration: none;
-}
-
-nav {
-    height: 100px;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #2ad2b0;
-}
-mark{
-    background-color: #fde00768;
-    opacity:20%;
-}
-
-#subtitle {
-    color: #797979;
-    font-weight: 100;
-}
-
-.name {
-    font-family: 'Montserrat', sans-serif;
-    color: #222;
-}
-
 .carousel-indicators li {
     border-radius: 12px;
     width: 12px;
@@ -89,39 +28,6 @@ mark{
     background-color: #2ad2b0;
     opacity: 0.6;
 }
-
-footer a,
-a {
-    color: #2ad2b0;
-}
-
-footer a:hover {
-    color: #222;
-}
-
-hr.style1 {
-    border-top: 2px solid #2ad2b0;
-}
-
-.before {
-    height: 100px;
-}
-
-.profileImg {
-    width: 70%;
-    
-    
-}
-
-p {
-    line-height: 24px;
-    display: block;
-}
-
-
-
-
-
 
 /*//tile animation//*/
 
@@ -207,15 +113,7 @@ p {
     transform: translateY(0px);
 }
 
-
-
-
 /*portfolio_item*/
-
-.project_image {
-    /*margin-top: 30px;*/
-}
-
 .project_description h1 {
     font-family: 'Montserrat', sans-serif;
 
@@ -254,11 +152,8 @@ p {
 }
 
 footer {
-    margin-top: 300px;
+    margin-top: 50px;
 }
-
-
-
 
 /*card_video*/
 
