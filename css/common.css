@@ -32,7 +32,7 @@ nav {
 }
 
 .logo:hover {
-    color: #ffab40;
+    color: #fac02b;
     text-decoration: none;
 }
 
@@ -60,13 +60,16 @@ p {
     height: 100px;
 }
 
-footer a,
 a {
     color: #2ad2b0;
 }
 
 footer a:hover {
-    color: #222;
+    color: #fac02b;
+}
+
+footer {
+    margin-top: 50px;
 }
 
 hr.style1 {

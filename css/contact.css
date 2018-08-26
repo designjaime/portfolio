@@ -26,7 +26,7 @@ button .navbar-toggler {
 }
 
 .logo:hover {
-    color: #222;
+    color: #fde007;
 }
 
 .link a{
@@ -34,7 +34,10 @@ button .navbar-toggler {
 }
 .link a:hover{
     color: #fde007;  
-    font-size: 20px;
+}
+
+a:hover{
+    text-decoration:none;
 }
 
 i {
@@ -42,13 +45,25 @@ i {
 }
 
 i:hover {
-    color: #fde007;  
+    color: #fde007; 
 }
 
 hr.style1 {
     border-top: 2px solid #ffffff;
 }
 
+.btn-warning{
+    background-color: #00bfa6;
+    color:#ffffff;
+    border-color:#00bfa6;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.057), 0 1px 10px 0 rgba(0, 0, 0, 0.071), 0 2px 4px -1px rgba(0, 0, 0, .2)
+}
+.btn-warning:hover{
+    background-color: #ffffff;
+    color: #00bfa6; 
+    border-color:#ffffff;
+    
+}
 span {
     color: #fde007;    
 }
