@@ -113,7 +113,7 @@ Responsive Media Querries
 /** Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
     .before{
-        height:100px;
+        height:80px;
     }
     .card{
         margin-bottom:0px;
