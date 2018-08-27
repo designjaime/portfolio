@@ -78,14 +78,20 @@ footer {
 }
 
 hr.style1 {
-    border-top: 2px solid #2ad2b0;
+    border-top: 6px solid #2ad2b0;
 }
 
-h6{
+h5,h6,strong{
     color: #2ad2b0;
     font-weight: 700;
 }
-
+.btn-group.special {
+    display: flex;
+  }
+  
+  .special .btn {
+    flex: 1
+  }
 .zoom {      
     -webkit-transition: all 0.35s ease-in-out;    
     -moz-transition: all 0.35s ease-in-out;    
@@ -132,7 +138,7 @@ Responsive Media Querries
         display: block;
       }
    
-    
+     
 }
 /** Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
@@ -152,7 +158,7 @@ Responsive Media Querries
     .logo2 {
         display: none;
       }
-
+   
 }
 /** Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
