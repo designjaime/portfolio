@@ -21,10 +21,14 @@ nav {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #2ad2b0;
 }
+.navbar-light .navbar-toggler{
+    border:1px solid;
+    border-color:#2ad2b0;
+}
 
-.logo {
+
+.logo, .logo2 {
     font-family: 'Montserrat', sans-serif;
-
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -52,6 +56,7 @@ mark{
 }
 
 p {
+    font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     display: block;
 }
@@ -74,4 +79,56 @@ footer {
 
 hr.style1 {
     border-top: 2px solid #2ad2b0;
+}
+
+h6{
+    color: #2ad2b0;
+    font-weight: 700;
+}
+
+/* -------------------------------------------------------------------
+Responsive Media Querries
+------------------------------------------------------------------- */
+
+/** Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+    .before{
+        height:40px;
+    }
+    .card{
+        margin-bottom:30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .logo {
+        display: none;
+      }
+    .logo2 {
+        display: block;
+      }
+
+    
+}
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .before{
+        height:100px;
+    }
+    .card{
+        margin-bottom:0px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .logo {
+        display: block;
+      }
+    .logo2 {
+        display: none;
+      }
+
+}
+/** Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
