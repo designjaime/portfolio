@@ -41,7 +41,9 @@ nav {
 }
 
 mark{
-    background-color: #fde00768;
+    color:#222;
+    font-weight: 500;
+    background-color: #fabf2b62;
     opacity:20%;
 }
 
