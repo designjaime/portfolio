@@ -86,6 +86,29 @@ h6{
     font-weight: 700;
 }
 
+.zoom {      
+    -webkit-transition: all 0.35s ease-in-out;    
+    -moz-transition: all 0.35s ease-in-out;    
+    transition: all 0.35s ease-in-out;     
+    cursor: -webkit-zoom-in;      
+    cursor: -moz-zoom-in;      
+    cursor: zoom-in;  
+    }     
+    
+    .zoom:hover,  
+    .zoom:active,   
+    .zoom:focus {
+    /**adjust scale to desired size, 
+    add browser prefixes**/
+    -ms-transform: scale(2);    
+    -moz-transform: scale(2);  
+    -webkit-transform: scale(2);  
+    -o-transform: scale(2);  
+    transform: scale(2);    
+    position:relative;      
+    z-index:100;  
+    }
+
 /* -------------------------------------------------------------------
 Responsive Media Querries
 ------------------------------------------------------------------- */
@@ -100,6 +123,7 @@ Responsive Media Querries
     }
     p{
         font-size: 14px;
+        padding-left: 0px;
     }
     .logo {
         display: none;
@@ -107,7 +131,7 @@ Responsive Media Querries
     .logo2 {
         display: block;
       }
-
+   
     
 }
 /** Medium devices (tablets, 768px and up) */
@@ -120,6 +144,7 @@ Responsive Media Querries
     }
     p{
         font-size: 17px;
+        padding-left: 15px;
     }
     .logo {
         display: block;
