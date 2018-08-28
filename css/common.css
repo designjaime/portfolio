@@ -82,7 +82,10 @@ footer {
 hr.style1 {
     border-top: 6px solid #2ad2b0;
 }
-
+h1{
+    color: #7ed7c3;
+    font-weight: 700;
+}
 h5,h6,strong{
     color: #2ad2b0;
     font-weight: 700;

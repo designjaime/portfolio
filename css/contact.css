@@ -53,14 +53,14 @@ hr.style1 {
 }
 
 .btn-warning{
-    background-color: #00bfa6;
-    color:#ffffff;
-    border-color:#00bfa6;
+    background-color: #eedb4b;
+    color:#373737;
+    border-color:#eedb4b;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.057), 0 1px 10px 0 rgba(0, 0, 0, 0.071), 0 2px 4px -1px rgba(0, 0, 0, .2)
 }
 .btn-warning:hover{
     background-color: #ffffff;
-    color: #00bfa6; 
+    color: #eedb4b; 
     border-color:#ffffff;
     
 }
