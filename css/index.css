@@ -44,6 +44,7 @@ img.expanded {
     box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
     overflow: hidden;
     color: white;
+    border-radius: 3px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -60,7 +61,7 @@ img.expanded {
 .tile .text {
       /* z-index:99; */
     position: absolute;
-    padding: 30px;
+    padding: 20px;
     height: calc(100% - 60px);
 }
 
@@ -73,19 +74,23 @@ img.expanded {
 .tile h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 28px;
     margin: 20px 0 0 0;
-   transform: translateX(200px);
+   transform: translateX(100px);
 }
 
 .tile p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     line-height: 25px;
     /*   opacity:0; */
-    transform: translateX(-200px);
-    transition-delay: 0.2s;
+    transform: translateX(-100px);
+    transition-delay: 0.1s;
+    padding-left: 0px;
+    padding-top:10px;
+    color:#eddc21;
+    letter-spacing: 0.08rem;
 }
 
 .animate-text {
