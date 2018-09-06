@@ -1,29 +1,45 @@
 body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
     color: rgb(87, 87, 87);
     font-size: 17px;
     font-weight: 300;
+}
+.jumbotron{
+    height: 550px;
+    background-color:#343434;
+}
+.sub-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:#e1e1e1;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 nav {
     height: 100px;
 }
 
+
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.0em;
-    color: #222;
-    font-weight: 500;
+    color: #ffffff;
+    font-weight: 300;
     padding-left: 1em;
     padding-right: 1em;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #2ad2b0;
+    color: #7185ff;
+    border-bottom: 0.5px solid #eddc21;
 }
 .navbar-light .navbar-toggler{
     border:1px solid;
-    border-color:#2ad2b0;
+    border-color:#3e17b3;
 }
 
 
@@ -32,11 +48,11 @@ nav {
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #2ad2b0;
+    color: #ffffff;
 }
 
 .logo:hover {
-    color: #fac02b;
+    color: #eddc21;
     text-decoration: none;
 }
 
@@ -70,6 +86,10 @@ p {
 a {
     color: #2ad2b0;
 }
+.sub-title a :hover{
+
+    border-bottom: 1px solid #eddc21;
+}
 
 footer a:hover {
     color: #fac02b;
@@ -83,12 +103,12 @@ hr.style1 {
     border-top: 6px solid #2ad2b0;
 }
 h1{
-    color: #7ed7c3;
+    color: #eddc21;
     font-weight: 700;
 }
 h5,h6,strong{
-    color: #2ad2b0;
-    font-weight: 700;
+    color: #7185ff;
+    font-weight: 400;
 }
 .btn-group.special {
     display: flex;
