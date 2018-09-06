@@ -9,13 +9,20 @@ body {
     height: 550px;
     background-color:#343434;
 }
+
+.jumbotron-2{
+    padding:4rem 2rem;
+    height: 650px;
+    background-color:#343434;
+}
 .sub-title{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     color:#e1e1e1;
     line-height: 30px;
     letter-spacing: 1px;
+    
 }
 
 nav {
@@ -87,7 +94,10 @@ a {
 
     border-bottom: 1px solid #eddc21;
 }
-
+.totorolink{
+    font-size: 21px;
+    font-weight: 500;
+}
 footer a:hover {
     color: #fac02b;
 }
@@ -104,8 +114,10 @@ h1{
     font-weight: 700;
 }
 h5,h6,strong{
+    padding-left: 15px;
     color: #7185ff;
-    font-weight: 400;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .btn-group.special {
     display: flex;
@@ -174,6 +186,8 @@ Responsive Media Querries
    
      
 }
+
+
 /** Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
     .before{
