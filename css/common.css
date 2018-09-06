@@ -21,6 +21,12 @@ body {
     height: 650px;
     background-color:#9f9fd7;
 }
+
+.jumbotron-4{
+    padding:4rem 2rem;
+    height: 650px;
+    background-color:#eec7c7;
+}
 .sub-title{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
