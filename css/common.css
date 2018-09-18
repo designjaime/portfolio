@@ -1,0 +1,278 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(87, 87, 87);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.jumbotron {
+    height: 550px;
+    background-color: #343434;
+}
+
+
+.sub-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #e1e1e1;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+nav {
+    height: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0em;
+    color: #ffffff;
+    font-weight: 300;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #7185ff;
+    border-bottom: 0.5px solid #eddc21;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+
+.logo,
+.logo2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.logo:hover {
+    color: #7185ff;
+    text-decoration: none;
+}
+
+mark {
+    color: #222;
+    font-weight: 500;
+    background-color: #fabf2b62;
+    opacity: 20%;
+}
+
+#subtitle {
+    color: #797979;
+    font-weight: 100;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    display: block;
+}
+
+.before {
+    height: 100px;
+}
+
+a {
+    color: #7185ff;
+}
+
+.sub-title a :hover {
+
+    border-bottom: 1px solid #eddc21;
+}
+
+.totorolink {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #fac02b;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+hr.style1 {
+    border-top: 6px solid #7185ff;
+}
+
+h1 {
+    color: #eddc21;
+    font-weight: 700;
+}
+
+h5,
+h6,
+strong {
+    padding-left: 15px;
+    color: #7185ff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-group.special {
+    display: flex;
+}
+
+.special .btn {
+    flex: 1
+}
+
+.zoom {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+.zoom:hover,
+.zoom:active,
+.zoom:focus {
+    /**adjust scale to desired size, 
+    add browser prefixes**/
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    position: relative;
+    z-index: 100;
+}
+
+/* -------------------------------------------------------------------
+Responsive Media Querries
+------------------------------------------------------------------- */
+
+/** Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+    .before {
+        height: 40px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        padding-left: 0px;
+    }
+
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+
+    .sub-title {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo2 {
+        display: block;
+    }
+
+
+}
+
+/* -------------------------------------------------------------------
+Scroll to top
+------------------------------------------------------------------- */
+
+.scroll-up {
+    position: fixed;
+    display: none;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.scroll-up a {
+    background: #7185ff;
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 0.6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+    opacity: 1;
+    color: #000;
+}
+
+
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .before {
+        height: 80px;
+    }
+
+    .card {
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 17px;
+        padding-left: 15px;
+    }
+
+    .mt-5 {
+        margin-top: 3rem !important;
+    }
+
+    .sub-title {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+}
+
+/** Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
