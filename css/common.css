@@ -157,6 +157,12 @@ strong {
     z-index: 100;
 }
 
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
 /* -------------------------------------------------------------------
 Responsive Media Querries
 ------------------------------------------------------------------- */
