@@ -37,7 +37,8 @@ nav {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #7185ff;
-    border-bottom: 0.5px solid #eddc21;
+
+
 }
 
 .navbar-dark .navbar-toggler {
@@ -96,8 +97,16 @@ a {
 }
 
 .sub-title a :hover {
+    color: #eddc21;
+    text-decoration: none;
 
-    border-bottom: 1px solid #eddc21;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
 }
 
 .totorolink {
@@ -130,6 +139,11 @@ strong {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.bold {
+    font-weight: bold;
+}
+
 
 .btn-group.special {
     display: flex;
