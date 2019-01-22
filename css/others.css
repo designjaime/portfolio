@@ -1,0 +1,19 @@
+.card{
+	border:0px;
+}
+
+.card-body{
+	background-color: #fff;
+}
+.card-body .card-text{	
+	font-family: 'Lato', sans-serif;
+	color: #3f3f3f;
+	padding-left: 0px;
+	font-weight: 400;
+
+}
+.card-title{
+	color: #121212;
+	margin-bottom:0.3em;
+	font-weight: 700;
+}

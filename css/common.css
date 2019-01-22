@@ -1,10 +1,10 @@
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     color: rgb(87, 87, 87);
     font-size: 17px;
     font-weight: 300;
 }
+
 
 .jumbotron {
     height: 550px;
@@ -48,7 +48,7 @@ nav {
 
 .logo,
 .logo2 {
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -68,8 +68,8 @@ nav {
 mark {
     color: #222;
     font-weight: 500;
-    background-color: #fabf2b62;
-    opacity: 20%;
+    background-color: rgb(223, 220, 253);
+    
 }
 
 #subtitle {
@@ -127,18 +127,10 @@ hr.style1 {
 }
 
 h1 {
-    color: #eddc21;
+    color: #ffffff;
     font-weight: 700;
 }
 
-h5,
-h6,
-strong {
-    padding-left: 15px;
-    color: #7185ff;
-    font-weight: 600;
-    text-transform: uppercase;
-}
 
 .bold {
     font-weight: bold;
@@ -184,6 +176,50 @@ strong {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#7185ff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+footer .li-ic p{
+    padding-left:15px;
+}
+
+/* -------------------------------------------------------------------
+Portfolio works------------------------------------------------------------------- */
+
+.work-sub-title{
+    font-family: 'Lato', 'Sans-serif';;
+padding-left: 0px;
+}
+.text-body{
+   
+    margin-top:15px;
+    font-size:1em;
+    font-family: 'Lato', 'Sans-serif';
+    font-weight: 300;
+    padding-left: 0px;
+}
+.list-horizontal li{
+    font-weight: 700;
+    list-style-type: none;
+    display:inline;
+    padding-right: 20px;
+   
+}
+.list-horizontal-none li{
+    font-weight: 400;
+    list-style-type: none;
+    display:inline;
+    padding-right: 20px;
+    color:#b6b6b6;
+}
+
+
+
+.list-horizontal li:before {
+	content: '\00a0\2022\00a0\00a0';
+	color:rgb(0, 0, 0);
+	color:rgba(0,0,0,0.5);
+	font-size:16px;
+}
+
+
 /* -------------------------------------------------------------------
 Responsive Media Querries
 ------------------------------------------------------------------- */
@@ -214,6 +250,9 @@ Responsive Media Querries
     h1 {
         font-size: 2rem;
     }
+    h4 {
+        font-size: 1.3rem;
+    }
 
     .logo {
         display: none;
@@ -239,15 +278,14 @@ Scroll to top
 }
 
 .scroll-up a {
-    background: #7185ff;
     display: block;
-    height: 28px;
-    width: 28px;
+    height: 36px;
+    width: 36px;
     text-align: center;
-    line-height: 28px;
-    font-size: 18px;
+    line-height: 36px;
+    font-size: 36px;
     color: #ffffff;
-    opacity: 0.6;
+    opacity: 0.8;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -259,7 +297,6 @@ Scroll to top
 .scroll-up a:hover,
 .scroll-up a:active {
     opacity: 1;
-    color: #000;
 }
 
 
@@ -290,6 +327,9 @@ Scroll to top
     h1 {
         font-size: 2.5rem;
     }
+    h4 {
+        font-size: 1.5rem;
+    }
 
     .logo {
         display: block;
@@ -300,6 +340,16 @@ Scroll to top
     }
 
 }
-
+/** Large devices (tablets, 1024px and up) */
+@media (min-width: 768px) {
+    h4 {
+        font-size: 1.5rem;
+    }
+    p{
+        font-size:14px;
+    }
+}
 /** Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  
+}
