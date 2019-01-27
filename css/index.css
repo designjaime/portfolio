@@ -27,6 +27,7 @@ body{
 #about-underline{
 	font-size: 17px;
 	font-weight: 600;
+	color: #000000;
 }
 
 .hover-highlight {
@@ -53,7 +54,7 @@ body{
 }
 
 .hover-highlight:hover::before {
-	height: .9em;
+	height: 1em;
 	opacity:0.4;
 
 }
