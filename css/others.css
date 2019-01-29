@@ -13,12 +13,15 @@ max-width: 960px;
 	color: #3f3f3f;
 	padding-left: 0px;
 	font-weight: 400;
-
 }
 .card-title{
 	color: #121212;
 	margin-bottom:0.3em;
 	font-weight: 700;
+}
+.badge-outlined{
+	border-color: #B0BEC5;
+  color: #B0BEC5
 }
 /** Small devices (tablets, 320px and up) */
 @media (min-width: 320px) {

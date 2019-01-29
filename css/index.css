@@ -18,18 +18,14 @@ body{
     text-decoration: none;
 }
 
-
-#svgContainer {
-	max-width: 100%;
-	max-height: 100%;
-	background-color: #ffffff;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-  }
+.badge-outline{
+	color: rgb(91, 238, 189);
+    border: 1px solid rgb(91, 238, 189);
+    background-color: transparent;
+	border-radius: 1em;
+	font-weight: 100;
+	font-size: 12px;
+}
 #title-underline{
 	font-size: 24px;
 	font-weight: 700;
@@ -99,16 +95,6 @@ p{
 .li-ic :hover{
 	color:#594CD6;
 }
-.badge-primary{
-	background-color: #594CD6;
-}
-.badge-secondary{
-	background-color: rgb(76, 200, 214);
-}
-.badge-third{
-	background-color: rgb(235, 211, 78);
-}
-
 
 
 .cta1{
@@ -177,7 +163,7 @@ u, .underline {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 0%;
-    background-color: #74c3fa;
+    background-color: #cecece;
     margin-top: 0px;
     margin-bottom: 0px;
 	background: linear-gradient(
@@ -248,10 +234,7 @@ nav ul li a {
 	font-weight:400;
     
 }
-/* nav ul li a:hover {
-    color: #594CD6;
-    font-weight: 400;
-} */
+
 
 .topnav {
 	overflow: hidden;
