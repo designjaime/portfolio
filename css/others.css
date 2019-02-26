@@ -26,7 +26,7 @@ max-width: 960px;
 /** Small devices (tablets, 320px and up) */
 @media (min-width: 320px) {
 	.side-by-side{
-		width:70%;
+		max-width:100%;
 	}
 	
 }
@@ -37,6 +37,8 @@ max-width: 960px;
 /** large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	.side-by-side{
-		width:100%;
+		max-width:100%;
 	}
+	
+	
 }
