@@ -51,7 +51,7 @@ body {
   position: absolute;
   bottom: .1em;
   height: .4em;
-  background-color: rgb(69, 253, 192);
+  background-color: rgb(170, 161, 250);
   width: 100%;
   left: 0;
   z-index: -1;
@@ -95,7 +95,7 @@ p {
 }
 
 .li-ic {
-  color: #fff;
+  color: rgb(39, 39, 39);
 }
 
 .li-ic :hover {
@@ -104,9 +104,13 @@ p {
 
 
 .cta1 {
-  color: rgb(97, 82, 226);
+  color: rgb(96, 85, 194);
   font-weight: 100;
+}
 
+.cta2 {
+  color: #3b3b3b;
+  font-weight: 100;
 }
 
 .cta1 :hover {
@@ -294,7 +298,6 @@ nav ul li a {
 
 footer {
   height: 200px;
-  background-color: #000000;
   text-align: center;
 }
 
