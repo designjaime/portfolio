@@ -1,8 +1,8 @@
 body {
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif;
   color: rgb(87, 87, 87);
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 300; */
 }
 
 
@@ -13,7 +13,7 @@ body {
 
 
 .sub-title {
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
   font-weight: 300;
   font-size: 17px;
   color: #e1e1e1;
@@ -27,7 +27,7 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-size: 1.0em;
   color: #ffffff;
   font-weight: 300;
@@ -78,12 +78,12 @@ mark {
 }
 
 .name {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: #222;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   line-height: 24px;
   display: block;
 }
@@ -186,7 +186,7 @@ footer .li-ic p {
 Portfolio works------------------------------------------------------------------- */
 
 .work-sub-title {
-  font-family: 'Lato', 'Sans-serif';
+  /* font-family: 'Lato', 'Sans-serif'; */
   ;
   padding-left: 0px;
 }
@@ -195,7 +195,7 @@ Portfolio works-----------------------------------------------------------------
 
   margin-top: 15px;
   font-size: 1em;
-  font-family: 'Lato', 'Sans-serif';
+  /* font-family: 'Lato', 'Sans-serif'; */
   font-weight: 300;
   padding-left: 0px;
 }
