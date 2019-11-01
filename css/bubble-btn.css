@@ -7,7 +7,7 @@
     -webkit-font-smoothing: antialiased;
     background-color: #ffffff;
     border: none;
-    color: #594CD6;
+    color: #FE4F6C;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -18,7 +18,7 @@
         -ms-user-select: none;
             user-select: none;
     letter-spacing: 1px;
-    color: #594CD6;
+    color: #FE4F6C;
     padding: 15px 30px;
     text-transform: uppercase;
     transition: all 0.1s ease-out;
