@@ -92,6 +92,22 @@ body {
           transform: translate(0, -5px);
 }
 
+@media screen and (max-width: 900px) {
+  .project-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .project-container {
+    margin-bottom: 60px;
+  }
+}
+
 .project-container .project-preview {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
@@ -99,6 +115,26 @@ body {
       flex-shrink: 0;
   overflow: hidden;
   position: relative;
+  padding-top: 58.62069%;
+}
+
+@media screen and (max-width: 900px) {
+  .project-container .project-preview {
+    padding-top: 53.125%;
+  }
+}
+
+.project-container .project-preview img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .project-container .project-preview img {
+    top: 0;
+    left: 0;
+  }
 }
 
 .project-container .project-details {
@@ -112,12 +148,31 @@ body {
           box-sizing: border-box;
 }
 
+@media screen and (max-width: 440px) {
+  .project-container .project-details {
+    height: 140px;
+    padding: 20px;
+  }
+}
+
 .project-container .project-details .metadata {
   color: #7D7D80;
   font-family: "poppins", sans-serif;
   font-size: 13px;
   letter-spacing: 1px;
   margin-bottom: 56px;
+}
+
+@media screen and (max-width: 900px) {
+  .project-container .project-details .metadata {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .project-container .project-details .metadata {
+    margin-bottom: 24px;
+  }
 }
 
 .project-container .project-details .title {
@@ -128,6 +183,18 @@ body {
   font-weight: 600;
 }
 
+@media screen and (max-width: 1100px) {
+  .project-container .project-details .title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .project-container .project-details .title {
+    font-size: 28px;
+  }
+}
+
 .project-container .project-details .subtitle {
   color: #FE4F6C;
   font-family: "merriweather", serif;
@@ -136,8 +203,20 @@ body {
   margin-bottom: 24px;
 }
 
+@media screen and (max-width: 440px) {
+  .project-container .project-details .subtitle {
+    font-size: 18px;
+  }
+}
+
 .project-container .project-details .body {
   line-height: 1.75;
+}
+
+@media screen and (max-width: 440px) {
+  .project-container .project-details .body {
+    display: none;
+  }
 }
 
 .project-container .project-details .body object {
