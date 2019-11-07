@@ -19,7 +19,7 @@ body {
 }
 
 
-.home_title {
+.home_project-title {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.4;
@@ -98,7 +98,7 @@ body {
     margin-bottom: 60px;
   }
 
-  .project-preview {
+  .project-img {
     flex-basis: 50%;
     flex-shrink: 0;
     overflow: hidden;
@@ -141,7 +141,7 @@ body {
       padding: 20px;
     }
 
-    .metadata {
+    .project-data {
       color: #7D7D80;
       font-family: $poppins;
       font-size: 13px;
@@ -157,7 +157,7 @@ body {
       }
     }
 
-    .title {
+    .project-title {
       color: #292841;
       font-family: $poppins;
       font-size: 40px;
@@ -173,15 +173,15 @@ body {
       }
     }
 
-    .subtitle {
+    .project-subtitle {
       color: #FE4F6C;
       font-family: $merriweather;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 300;
       margin-bottom: 24px;
 
       @media screen and (max-width: $break-sml) {
-        font-size: 18px;
+        font-size: 16px;
       }
     }
 
@@ -242,7 +242,7 @@ body {
   font-size: 12px;
 }
 
-#title-underline {
+#project-title-underline {
   font-size: 24px;
   font-weight: 700;
   color: #000000;
@@ -292,7 +292,7 @@ h4 {
 
 }
 
-.jobtitle {
+.jobproject-title {
   color: #FE4F6C;
   font-weight: 700;
 

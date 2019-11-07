@@ -8,7 +8,7 @@ body {
   margin: auto;
 }
 
-.home_title {
+.home_project-title {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.4;
@@ -108,7 +108,7 @@ body {
   }
 }
 
-.project-container .project-preview {
+.project-container .project-img {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   -ms-flex-negative: 0;
@@ -119,19 +119,19 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  .project-container .project-preview {
+  .project-container .project-img {
     padding-top: 53.125%;
   }
 }
 
-.project-container .project-preview img {
+.project-container .project-img img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
 @media screen and (max-width: 900px) {
-  .project-container .project-preview img {
+  .project-container .project-img img {
     top: 0;
     left: 0;
   }
@@ -155,7 +155,7 @@ body {
   }
 }
 
-.project-container .project-details .metadata {
+.project-container .project-details .project-data {
   color: #7D7D80;
   font-family: "poppins", sans-serif;
   font-size: 13px;
@@ -164,18 +164,18 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  .project-container .project-details .metadata {
+  .project-container .project-details .project-data {
     margin-bottom: 36px;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .project-container .project-details .metadata {
+  .project-container .project-details .project-data {
     margin-bottom: 24px;
   }
 }
 
-.project-container .project-details .title {
+.project-container .project-details .project-title {
   color: #292841;
   font-family: "poppins", sans-serif;
   font-size: 40px;
@@ -184,28 +184,28 @@ body {
 }
 
 @media screen and (max-width: 1100px) {
-  .project-container .project-details .title {
+  .project-container .project-details .project-title {
     font-size: 32px;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .project-container .project-details .title {
+  .project-container .project-details .project-title {
     font-size: 28px;
   }
 }
 
-.project-container .project-details .subtitle {
+.project-container .project-details .project-subtitle {
   color: #FE4F6C;
   font-family: "merriweather", serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   margin-bottom: 24px;
 }
 
 @media screen and (max-width: 440px) {
-  .project-container .project-details .subtitle {
-    font-size: 18px;
+  .project-container .project-details .project-subtitle {
+    font-size: 16px;
   }
 }
 
@@ -266,7 +266,7 @@ body {
   font-size: 12px;
 }
 
-#title-underline {
+#project-title-underline {
   font-size: 24px;
   font-weight: 700;
   color: #000000;
@@ -314,7 +314,7 @@ h4 {
   font-family: 'Lato', 'sans-serif';
 }
 
-.jobtitle {
+.jobproject-title {
   color: #FE4F6C;
   font-weight: 700;
 }

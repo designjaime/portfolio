@@ -11,7 +11,7 @@ $('.overlay').on('click', function () {
 });
 
 // Auto complete code for Animate.css 
-// Jaime Yoon Logo Title Animation
+// Jaime Yoon Logo project-title Animation
 $.fn.extend({
     animateCss: function (animationName, callback) {
         var animationEnd = (function (el) {
