@@ -1,6 +1,6 @@
 body {
   font-family: poppins, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: #121212;
   letter-spacing: 0.02em;
@@ -12,6 +12,10 @@ body {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.4;
+}
+
+#typing-animate {
+  height: 50px;
 }
 
 .page-down {
@@ -324,15 +328,23 @@ p {
 }
 
 .fa {
-  color: #a8a4cd;
+  color: #fcced6;
 }
 
-.li-ic {
-  color: #272727;
+footer .li-ic {
+  padding-left: 20px;
+}
+
+footer .li-ic p {
+  color: #EAF4FA;
 }
 
 .li-ic :hover {
   color: #FE4F6C;
+}
+
+.fab {
+  color: #EAF4FA;
 }
 
 .cta1 {
@@ -522,14 +534,16 @@ nav ul li a {
 }
 
 footer {
-  height: 200px;
+  height: 300px;
   text-align: center;
+  margin-top: 200px;
+  background-color: #292841;
 }
 
 .footer-copyright {
   font-size: 0.8em;
   font-weight: 100;
-  color: #545454;
+  color: #EAF4FA;
 }
 
 @-webkit-keyframes bounce {
@@ -702,5 +716,23 @@ nav .btn-close:hover:after {
     background: #000000;
     background-image: url("../img/Home/Hero_totoro.png");
   }
+}
+
+.short-bio {
+  text-align: left;
+  max-width: 840px;
+  margin-top: 200px;
+}
+
+.short-bio_body {
+  font-size: 16px;
+}
+
+.second-title {
+  margin-top: 200px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #EAF4FA;
 }
 /*# sourceMappingURL=index.css.map */
