@@ -6,21 +6,24 @@ body {
 }
 
 
-.jumbotron {
-  height: 550px;
-  background-color: #343434;
+.hero {
+  background-image: url('../img/petguard/main-hero-Petguard.png');
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 600px;
+  display: flex;
+  margin-top: 50px;
 }
 
-
-.sub-title {
-  /* font-family: 'Lato', sans-serif; */
-  font-weight: 300;
-  font-size: 17px;
-  color: #e1e1e1;
-  line-height: 30px;
-  letter-spacing: 1px;
-
+.center-content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
+
 
 nav {
   height: 100px;
