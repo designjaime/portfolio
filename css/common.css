@@ -5,6 +5,9 @@ body {
   font-weight: 300; */
 }
 
+.work-sub-project-title {
+  font-weight: 700;
+}
 
 .hero {
   background-image: url('../img/petguard/main-hero-Petguard.png');
@@ -24,6 +27,25 @@ body {
   margin: auto;
 }
 
+.project-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+li {
+  text-align: left;
+  list-style-type: none;
+}
+
+.blocktext {
+  background-color: #EAF4FA;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.divide-hr {
+  width: 50%;
+}
 
 nav {
   height: 100px;
