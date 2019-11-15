@@ -6,7 +6,7 @@ body {
 }
 
 .work-sub-project-title {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .hero {
@@ -37,6 +37,10 @@ li {
   list-style-type: none;
 }
 
+.description {
+  font-size: 14px;
+}
+
 .blocktext {
   background-color: #EAF4FA;
   height: 400px;
@@ -55,6 +59,10 @@ li {
 
 nav {
   height: 100px;
+}
+
+.work-sub-project-subtitle {
+  font-weight: 900;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -300,8 +308,9 @@ Responsive Media Querries
     display: block;
   }
 
-
 }
+
+
 
 /* -------------------------------------------------------------------
 Scroll to top
