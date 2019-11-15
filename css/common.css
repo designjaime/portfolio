@@ -43,6 +43,12 @@ li {
   vertical-align: middle;
 }
 
+.blocktext2 {
+  background-color: rgb(248, 248, 248);
+  height: 400px;
+  vertical-align: middle;
+}
+
 .divide-hr {
   width: 50%;
 }
