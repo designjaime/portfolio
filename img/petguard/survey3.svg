@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="233px" height="135px" viewBox="0 0 233 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>survey3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="228" height="129"></rect>
+        <filter x="-2.0%" y="-2.0%" width="104.1%" height="107.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.125" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.619451993   0 0 0 0 0.619451993   0 0 0 0 0.619451993  0 0 0 0.190067745 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.User-Survey" transform="translate(-339.000000, -241.000000)">
+            <g id="survey3" transform="translate(341.000000, 242.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#DEDEDE" stroke-width="0.25" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Have-you-ever-worrie" font-family="Poppins-Medium, Poppins" font-size="10" font-weight="400" fill="#595958">
+                    <tspan x="8" y="22">Have you ever worried that your pet would </tspan>
+                    <tspan x="8" y="37">be dangerous?</tspan>
+                </text>
+                <text id="--Yes,-Usually-my-do" font-family="Poppins-Regular, Poppins" font-size="9" font-weight="normal" line-spacing="13" fill="#6F6F6E">
+                    <tspan x="8" y="62">- Yes, Usually my dog stays at home alone, I </tspan>
+                    <tspan x="8" y="75">always worry about him.</tspan>
+                    <tspan x="8" y="88">- If there is some hazard that’s enough open to </tspan>
+                    <tspan x="8" y="101">them In  my absence, I would be worried</tspan>
+                    <tspan x="8" y="114">- Yes when we lock her in the house</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

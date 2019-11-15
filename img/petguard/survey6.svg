@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="233px" height="135px" viewBox="0 0 233 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>survey6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="228" height="129"></rect>
+        <filter x="-2.0%" y="-2.0%" width="104.1%" height="107.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.125" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.619451993   0 0 0 0 0.619451993   0 0 0 0 0.619451993  0 0 0 0.190067745 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.User-Survey" transform="translate(-96.000000, -97.000000)">
+            <g id="survey6" transform="translate(98.000000, 98.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#DEDEDE" stroke-width="0.25" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" fill-opacity="0.2" fill="#F8C500" x="0" y="52" width="228" height="16"></rect>
+                <text id="If-disaster-happened" font-family="Poppins-Medium, Poppins" font-size="10" font-weight="400" fill="#2B2C2D">
+                    <tspan x="9" y="20">If disaster happened nearby your area, </tspan>
+                    <tspan x="9" y="35">would you willing to help?</tspan>
+                </text>
+                <text id="78.9%" font-family="Poppins-Regular, Poppins" font-size="10" font-weight="normal" fill="#6F6F6E">
+                    <tspan x="183.24" y="64">78.9% </tspan>
+                </text>
+                <text id="Yes" font-family="Poppins-Regular, Poppins" font-size="10" font-weight="normal" fill="#6F6F6E">
+                    <tspan x="20" y="64">Yes</tspan>
+                </text>
+                <text id="21.1%" font-family="Poppins-Regular, Poppins" font-size="10" font-weight="normal" fill="#6F6F6E">
+                    <tspan x="189.16" y="112">21.1% </tspan>
+                </text>
+                <text id="0%" font-family="Poppins-Regular, Poppins" font-size="10" font-weight="normal" fill="#6F6F6E">
+                    <tspan x="197.13" y="88">0% </tspan>
+                </text>
+                <text id="No" font-family="Poppins-Regular, Poppins" font-size="10" font-weight="normal" fill="#6F6F6E">
+                    <tspan x="20" y="88">No</tspan>
+                </text>
+                <text id="Maybe" font-family="Poppins-Regular, Poppins" font-size="10" font-weight="normal" fill="#6F6F6E">
+                    <tspan x="20" y="112">Maybe</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
