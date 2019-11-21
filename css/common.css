@@ -364,6 +364,23 @@ Scroll to top
 }
 
 
+/* -------------------------------------------------------------------
+Carousel custom
+------------------------------------------------------------------- */
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  margin-left: -25px;
+}
+
+.carousel-control-next {
+  margin-right: -25px;
+}
+
 
 /** Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
