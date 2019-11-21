@@ -1,13 +1,3 @@
-body {
-  font-family: poppins, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #121212;
-  letter-spacing: 0.02em;
-  /* max-width: 1240px; */
-  margin: auto;
-}
-
 .home_project-title {
   font-size: 48px;
   font-weight: 700;
@@ -347,6 +337,10 @@ footer .li-ic p {
   color: #EAF4FA;
 }
 
+i .fab .fa-linkedin {
+  color: #292841;
+}
+
 .cta1 {
   color: #6055c2;
   font-weight: 100;
@@ -461,64 +455,6 @@ li {
   margin: 0;
 }
 
-nav {
-  text-align: center;
-  width: 100%;
-  position: relative;
-  height: auto;
-  overflow: hidden;
-  background: none;
-}
-
-nav ul {
-  text-align: center;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  color: #1c1c1c;
-  display: inline-block;
-  padding: 1em 1em;
-  text-decoration: none;
-  border-bottom: 2px solid #fff;
-  -webkit-transition-property: all .2s linear 0s;
-  transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.topnav {
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #1b1b1b;
-  text-align: center;
-  text-decoration: none;
-  font-size: 0.9em;
-  border-bottom: 3px solid transparent;
-  padding: 0;
-  padding-bottom: 1px;
-  margin-left: 25px;
-}
-
-.topnav a:hover {
-  color: #FE4F6C;
-}
-
-.topnav a.active {
-  color: #FE4F6C;
-  font-weight: 600;
-}
-
 .scroll-indicator {
   position: relative;
   left: 50%;
@@ -531,167 +467,6 @@ nav ul li a {
 #viewall {
   font-size: 24px;
   font-weight: 700;
-}
-
-footer {
-  height: 300px;
-  text-align: center;
-  margin-top: 200px;
-  background-color: #292841;
-}
-
-.footer-copyright {
-  font-size: 0.8em;
-  font-weight: 100;
-  color: #EAF4FA;
-}
-
-@-webkit-keyframes bounce {
-  0% {
-    top: 15%;
-  }
-  50% {
-    top: 20%;
-  }
-  100% {
-    top: 15%;
-  }
-}
-
-@keyframes bounce {
-  0% {
-    top: 15%;
-  }
-  50% {
-    top: 20%;
-  }
-  100% {
-    top: 15%;
-  }
-}
-
-/*styling open close button*/
-nav .button {
-  display: inline;
-  right: 50px;
-  top: 6px;
-  z-index: 999;
-  font-size: 30px;
-}
-
-nav .button a {
-  text-decoration: none;
-}
-
-nav .btn-open:after {
-  color: #333;
-  content: "\f0c9";
-  font-family: "FontAwesome";
-  -webkit-transition-property: all .2s linear 0s;
-  transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
-}
-
-nav .btn-open:hover:after {
-  color: #FE4F6C;
-}
-
-nav .btn-close:after {
-  color: #fff;
-  content: "\f00d";
-  font-family: "FontAwesome";
-  -webkit-transition-property: all .2s linear 0s;
-  transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
-}
-
-nav .btn-close:hover:after {
-  color: #FE4F6C;
-}
-
-/*overlay*/
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: #121212;
-  overflow: auto;
-  z-index: 99;
-}
-
-.wrap {
-  color: #e9e9e9;
-  text-align: center;
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-.wrap ul.wrap-nav {
-  padding: 150px 0px 100px;
-}
-
-.wrap ul.wrap-nav li {
-  font-size: 36px;
-  display: inline-block;
-  vertical-align: top;
-  width: 24%;
-  position: relative;
-}
-
-.wrap ul.wrap-nav li a {
-  color: #FE4F6C;
-  display: block;
-  padding: 8px 0;
-  text-decoration: none;
-  -webkit-transition-property: all .2s linear 0s;
-  transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
-}
-
-.wrap ul.wrap-nav li a:hover {
-  color: #f0f0f0;
-}
-
-.wrap ul.wrap-nav ul {
-  padding: 20px 0;
-}
-
-.wrap ul.wrap-nav ul li {
-  display: block;
-  font-size: 36px;
-  font-weight: 700;
-  width: 100%;
-  color: #e9e9e9;
-}
-
-.wrap ul.wrap-nav ul li a {
-  color: #f0f0f0;
-}
-
-.wrap ul.wrap-nav ul li a:hover {
-  color: #FE4F6C;
-}
-
-@media screen and (max-width: 48em) {
-  .wrap ul.wrap-nav > li {
-    width: 100%;
-    padding: 20px 0;
-  }
-  .wrap ul.wrap-nav {
-    padding: 30px 0px 0px;
-  }
-  nav ul {
-    opacity: 0;
-    visibility: hidden;
-  }
 }
 
 /** Small devices (landscape phones, 320px and up) */

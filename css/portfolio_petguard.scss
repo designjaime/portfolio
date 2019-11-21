@@ -1,0 +1,79 @@
+.work-sub-project-title {
+    font-weight: 900;
+}
+
+.blocktext {
+    background-color: #EAF4FA;
+    height: 400px;
+    vertical-align: middle;
+}
+
+.blocktext2 {
+    background-color: rgb(248, 248, 248);
+    height: 400px;
+    vertical-align: middle;
+}
+
+.blocktext3 {
+    background-color: rgb(248, 248, 248);
+    height: 700px;
+    vertical-align: middle;
+}
+
+.work-sub-project-subtitle {
+    font-weight: 900;
+}
+
+#subtitle {
+    color: #797979;
+    font-weight: 100;
+}
+
+.totorolink {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+/* -------------------------------------------------------------------
+Portfolio works
+------------------------------------------------------------------- */
+
+.work-sub-title {
+    /* font-family: 'Lato', 'Sans-serif'; */
+    padding-left: 0px;
+}
+
+.text-body {
+
+    margin-top: 15px;
+    font-size: 1em;
+    /* font-family: 'Lato', 'Sans-serif'; */
+    font-weight: 300;
+    padding-left: 0px;
+}
+
+.list-horizontal li {
+    font-weight: 700;
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+
+}
+
+.list-horizontal-none li {
+    font-weight: 400;
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+    color: #b6b6b6;
+}
+
+
+
+.list-horizontal li:before {
+    content: '\00a0\2022\00a0\00a0';
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
