@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="530px" viewBox="0 0 680 530" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="21.Sitemap" transform="translate(-97.000000, -50.000000)">
+            <g id="Group" transform="translate(98.000000, 50.000000)">
+                <line x1="299.196667" y1="289.491852" x2="298.5" y2="433.5" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="366.5" y1="346.5" x2="366.5" y2="483.5" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="428.99213" y1="476.92" x2="428.99213" y2="515.56" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="298.8" y1="29.16" x2="298.621733" y2="262.063678" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="181" y1="290.041713" x2="181" y2="447.373138" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="251.48" y1="70.9920006" x2="203.32" y2="70.9920006" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="371.6" y1="138.252" x2="228.8" y2="138.252" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="97.5" y1="68.5" x2="34.96" y2="68.5459724" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="546.517959" y1="268.606858" x2="228.5" y2="268.5" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="371.04" y1="203.141143" x2="88.2637393" y2="203.141143" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="582.588148" y1="335.856001" x2="565.331852" y2="335.856001" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="324.002222" y1="338.832" x2="299.974074" y2="338.832" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="323.002222" y1="382.15" x2="298.974074" y2="382.15" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="439.348148" y1="381.292" x2="415.32" y2="381.292" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="438.148148" y1="433.932" x2="414.12" y2="433.932" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="442.691448" y1="476.304" x2="429.039091" y2="476.304" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="428.5" y1="496.5" x2="414.5" y2="496.5" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="442.637626" y1="515.944" x2="428.985269" y2="515.944" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="323.308148" y1="433.932" x2="299.28" y2="433.932" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="582.588148" y1="381.6064" x2="565.331852" y2="381.6064" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <line x1="582.736296" y1="426.15" x2="565.48" y2="426.15" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <rect id="Rectangle" fill="#DCDCDC" x="253" y="0" width="95.2" height="29"></rect>
+                <text id="Landing-page" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#1A1A1A">
+                    <tspan x="259.262752" y="19">Landing page</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="97.32" y="55.76" width="106" height="26.88"></rect>
+                <text id="Register-Device" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="104.190464" y="74">Register Device</tspan>
+                </text>
+                <text id="Smart-Collar" font-family="Poppins-Light, Poppins" font-size="6" font-weight="300" fill="#252D48">
+                    <tspan x="208.493" y="64">Smart Collar</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="252.04" y="114.56" width="95.2" height="44.8"></rect>
+                <text id="Register-Pet-owner" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="275.272608" y="133.72">Register</tspan>
+                    <tspan x="269.865696" y="150.72">Pet owner</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="122.12" y="114" width="106.4" height="44.8"></rect>
+                <text id="Register-Pet-Walker/" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="151.232608" y="133.16">Register</tspan>
+                    <tspan x="125.607232" y="150.16">Pet Walker/Sitter</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="369.08" y="115.68" width="95.2" height="44.8"></rect>
+                <text id="Register-Pet" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="381.244768" y="143.24">Register Pet </tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="0" y="56" width="75" height="26.88"></rect>
+                <text id="QR-Code" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="10.064192" y="73">QR Code</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="133" y="323" width="95.2" height="26.88"></rect>
+                <text id="Profile" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="162.156416" y="341">Profile</tspan>
+                </text>
+                <line x1="47.5" y1="225.5" x2="47.72" y2="245.92" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="-8.52651283e-14" y="246" width="95.2" height="44.8"></rect>
+                <text id="Connect-Camera" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="22.096416" y="264">Connect</tspan>
+                    <tspan x="22.918944" y="281">Camera</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="319" y="324" width="95.2" height="26.88"></rect>
+                <text id="Petgruards" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="333.242048" y="342">Petgruards</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="319" y="359" width="95.2" height="44.8"></rect>
+                <text id="Pet-walkers-Pet-Sitt" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="333.119104" y="377">Pet walkers</tspan>
+                    <tspan x="337.328512" y="394">Pet Sitters</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="318.92" y="411" width="95.2" height="44.8"></rect>
+                <text id="Add-New-Contact" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="339.091072" y="429">Add New</tspan>
+                    <tspan x="341.346976" y="446">Contact</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="439" y="411" width="113" height="44.8"></rect>
+                <text id="Import-Contact-List" font-family="OpenSans, Open Sans" font-size="12.096" font-weight="normal" line-spacing="14" fill="#21283E">
+                    <tspan x="476.678875" y="432">Import </tspan>
+                    <tspan x="463" y="446">Contact List</tspan>
+                </text>
+                <line x1="564.855112" y1="287.04" x2="564.5" y2="426.5" id="Line" stroke="#1A1A1A" stroke-width="1.12" stroke-linecap="square"></line>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="583.48" y="323" width="95.2" height="26.88"></rect>
+                <text id="Health" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="611.902624" y="341">Health</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="583.48" y="368" width="95.2" height="26.88"></rect>
+                <text id="Activity" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="609.556" y="386">Activity</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="583.48" y="413" width="95.2" height="26.88"></rect>
+                <text id="Safety" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="610.880512" y="431"> Safety</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="438" y="359" width="113.68" height="44.8"></rect>
+                <text id="Send-a-message-to-co" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" line-spacing="14" fill="#21283E">
+                    <tspan x="444" y="380">Send a message</tspan>
+                    <tspan x="462.20448" y="394">to connect</tspan>
+                </text>
+                <rect id="Rectangle" fill="#DCDCDC" x="252" y="181" width="95.2" height="44.8"></rect>
+                <rect id="Rectangle" fill="#DCDCDC" x="-8.52651283e-14" y="181" width="95.2" height="44"></rect>
+                <text id="Main-page-(Map-View)" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="267.715776" y="199">Main page</tspan>
+                    <tspan x="265.224" y="216">(Map View)</tspan>
+                </text>
+                <text id="Camera-View" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="7.018752" y="208">Camera View</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="371" y="190" width="95.2" height="26.88"></rect>
+                <text id="Notification" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="384.020352" y="208">Notification</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="251.48" y="49.04" width="95.2" height="43.12"></rect>
+                <text id="Sign-In-&amp;-Sign-Up" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="272.585216" y="66">Sign In &amp; </tspan>
+                    <tspan x="275.857184" y="83">Sign Up </tspan>
+                </text>
+                <rect id="Rectangle" fill="#DCDCDC" x="251" y="247" width="95.2" height="44.8"></rect>
+                <rect id="Rectangle" fill="#DCDCDC" x="133" y="247" width="95.2" height="44.8"></rect>
+                <text id="Menu" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="164.301472" y="274">Menu</tspan>
+                </text>
+                <rect id="Rectangle" fill="#DCDCDC" x="319.2" y="483" width="95" height="26.88"></rect>
+                <text id="Ask-for-Help" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="333.30064" y="501">Ask for Help</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="439" y="463" width="113" height="26.88"></rect>
+                <text id="Call" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="483.76688" y="481">Call </tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="439" y="502" width="113" height="26.88"></rect>
+                <text id="Message" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="468.802144" y="520">Message </tspan>
+                </text>
+                <rect id="Rectangle" fill="#DCDCDC" x="543" y="247" width="113.68" height="44.8"></rect>
+                <text id="Pet’s-Recent-Activit" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="586.565408" y="265">Pet’s</tspan>
+                    <tspan x="551.051552" y="282">Recent Activities</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="133" y="397" width="95.2" height="26.88"></rect>
+                <text id="Camera" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="155.418944" y="415">Camera</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="133" y="360" width="95.2" height="26.88"></rect>
+                <text id="Pet" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="171.046976" y="378">Pet</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#1A1A1A" stroke-width="0.5" fill="#FFFFFF" x="133" y="434" width="95.2" height="26.88"></rect>
+                <text id="Settings" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="156.193088" y="452">Settings</tspan>
+                </text>
+                <text id="Emergency-Contact-Li" font-family="Poppins-Regular, Poppins" font-size="12.096" font-weight="normal" fill="#21283E">
+                    <tspan x="264.877184" y="265">Emergency </tspan>
+                    <tspan x="260.196032" y="282">Contact Lists</tspan>
+                </text>
+                <line x1="37" y1="83" x2="36.5" y2="173.5" id="Line-3" stroke="#888888" stroke-width="1.12" stroke-linecap="square" stroke-dasharray="3"></line>
+                <line x1="298.5" y1="173.5" x2="36.5" y2="173.5" id="Line-3" stroke="#888888" stroke-width="1.12" stroke-linecap="square" stroke-dasharray="3"></line>
+            </g>
+        </g>
+    </g>
+</svg>

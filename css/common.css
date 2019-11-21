@@ -14,9 +14,9 @@ body {
   background-size: cover;
   background-position: center;
   width: 100wh;
-  height: 600px;
+  height: 540px;
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .center-content {
@@ -27,10 +27,6 @@ body {
   margin: auto;
 }
 
-.project-subtitle {
-  font-size: 18px;
-  font-weight: 500;
-}
 
 li {
   text-align: left;
@@ -50,6 +46,12 @@ li {
 .blocktext2 {
   background-color: rgb(248, 248, 248);
   height: 400px;
+  vertical-align: middle;
+}
+
+.blocktext3 {
+  background-color: rgb(248, 248, 248);
+  height: 700px;
   vertical-align: middle;
 }
 
@@ -215,6 +217,8 @@ h1 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FE4F6C' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+
+
 footer .li-ic p {
   padding-left: 15px;
   color: #292929;
@@ -271,6 +275,10 @@ Responsive Media Querries
 
 /** Small devices (landscape phones, 320px and up) */
 @media (min-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+
   .before {
     height: 40px;
   }
@@ -288,12 +296,21 @@ Responsive Media Querries
     margin-top: 1rem !important;
   }
 
+  .project-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
   .sub-title {
     font-size: 14px;
   }
 
   h1 {
     font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 21px;
   }
 
   h4 {
@@ -350,6 +367,10 @@ Scroll to top
 
 /** Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+
   .before {
     height: 80px;
   }
@@ -371,9 +392,19 @@ Scroll to top
     font-size: 17px;
   }
 
+  .project-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
   h1 {
     font-size: 2.5rem;
   }
+
+  h3 {
+    font-size: 28px;
+  }
+
 
   h4 {
     font-size: 1.5rem;
@@ -391,6 +422,14 @@ Scroll to top
 
 /** Large devices (tablets, 1024px and up) */
 @media (min-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
   h4 {
     font-size: 1.5rem;
   }
