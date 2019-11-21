@@ -36,6 +36,24 @@
     font-weight: 500;
 }
 
+.img-fluid-700maxw,
+.img-fluid-800maxw,
+.img-fluid-900maxw {
+    width: 100%;
+    height: auto;
+}
+
+.img-fluid-700maxw {
+    max-width: 700px;
+}
+
+.img-fluid-800maxw {
+    max-width: 800px;
+}
+
+.img-fluid-900maxw {
+    max-width: 900px;
+}
 
 /* -------------------------------------------------------------------
 Portfolio works
