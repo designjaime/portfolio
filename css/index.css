@@ -44,6 +44,10 @@
   color: #FE4F6C;
 }
 
+.short-bio .fa-linkedin {
+  color: #292841;
+}
+
 /* The Projects */
 .project {
   background-color: #EAF4FA;
