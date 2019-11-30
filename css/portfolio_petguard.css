@@ -4,6 +4,11 @@
   margin-bottom: 48px;
 }
 
+.prototype {
+  margin: 0 auto;
+  border: 10px double #ddd;
+}
+
 .blocktext {
   background-color: #EAF4FA;
   height: 400px;
@@ -92,4 +97,5 @@ Portfolio works
   color: rgba(0, 0, 0, 0.5);
   font-size: 16px;
 }
+
 /*# sourceMappingURL=portfolio_petguard.css.map */
