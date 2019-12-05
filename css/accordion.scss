@@ -93,27 +93,31 @@ $text-offset: $a-height - 90;
 
         // Background images
         li:nth-child(1) {
-            background-image: url("http://michael-ferry.com/assets/accordion1.jpg");
+            background-image: url("../img/slider/petguard.png");
         }
 
         li:nth-child(2) {
-            background-image: url("http://michael-ferry.com/assets/accordion2.jpg");
+            background-image: url("../img/slider/parkfinder.png");
         }
 
         li:nth-child(3) {
-            background-image: url("http://michael-ferry.com/assets/accordion3.jpg");
+            background-image: url("../img/slider/barton.png");
         }
 
         li:nth-child(4) {
-            background-image: url("http://michael-ferry.com/assets/accordion4.jpg");
+            background-image: url("../img/slider/foodtracer.png");
         }
 
         li:nth-child(5) {
-            background-image: url("http://michael-ferry.com/assets/accordion5.jpg");
+            background-image: url("../img/slider/carus.png");
         }
 
         li:nth-child(6) {
-            background-image: url("http://michael-ferry.com/assets/accordion6.jpg");
+            background-image: url("../img/slider/motive.png");
+        }
+
+        li:nth-child(7) {
+            background-image: url("../img/slider/carstomize.png");
         }
 
         &:hover li,

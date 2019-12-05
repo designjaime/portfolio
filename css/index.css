@@ -21,6 +21,20 @@
   /* height: 100vh; */
 }
 
+.more-project-text {
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 48px;
+  color: #95d4f8;
+}
+
+.more-project-text:hover {
+  color: #5dbef7;
+  text-shadow: 0 5px 10px #c7cad1;
+  -webkit-transform: translate(0, -3px);
+          transform: translate(0, -3px);
+}
+
 .arrow {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

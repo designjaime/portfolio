@@ -25,6 +25,20 @@ $break-sml: 440px;
   /* height: 100vh; */
 }
 
+.more-project-text {
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 48px;
+  color: rgb(149, 212, 248);
+}
+
+.more-project-text:hover {
+  color: rgb(93, 190, 247);
+  text-shadow: 0 5px 10px #c7cad1;
+  transform: translate(0, -3px);
+}
+
+
 .arrow {
   box-sizing: border-box;
   height: 3vw;
