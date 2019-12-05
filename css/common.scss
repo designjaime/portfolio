@@ -11,15 +11,6 @@ body {
   margin: auto;
 }
 
-.hero {
-  background-image: url('../img/petguard/main-hero-Petguard.png');
-  background-size: cover;
-  background-position: center;
-  width: 100wh;
-  height: 540px;
-  display: flex;
-  margin-top: 20px;
-}
 
 .center-content {
   width: 400px;
@@ -227,6 +218,7 @@ footer {
 
 footer .li-ic {
   padding-left: 20px;
+
   @media screen and (max-width: $break-sml) {
     padding-left: 5px;
   }

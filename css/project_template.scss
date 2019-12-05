@@ -165,3 +165,28 @@ tr:nth-child(even) {
 .vacation {
     font-weight: bold
 }
+
+/*Hero image*/
+.hero {
+    background-size: cover;
+    background-position: center;
+    width: 100wh;
+    height: 540px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero-petguard {
+    background-image: url('../img/petguard/main-hero-Petguard.png');
+}
+
+.hero-parkfinder {
+    background-image: url('../img/parkfinder/main-hero-parkfinder.png');
+}
+
+/*background*/
+.blocktext {
+    background-color: #EAF4FA;
+    height: 400px;
+    vertical-align: middle;
+}
