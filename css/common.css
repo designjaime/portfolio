@@ -27,11 +27,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
 }
 
@@ -147,8 +147,8 @@ h1 {
 
 .special .btn {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .zoom {
@@ -190,8 +190,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 ul {
@@ -254,7 +254,7 @@ Thumbnails
   width: 100px;
   border: none;
   -webkit-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .carousel-thumbnails .carousel-indicators li.active {
@@ -269,49 +269,38 @@ Responsive Media Querries
   body {
     font-size: 14px;
   }
-
   .before {
     height: 40px;
   }
-
   .card {
     margin-bottom: 30px;
   }
-
   p {
     font-size: 14px;
     padding-left: 0px;
   }
-
   .mt-5 {
     margin-top: 1rem !important;
   }
-
   .project-subtitle {
     font-size: 16px;
     font-weight: 500;
   }
-
   .sub-title {
     font-size: 14px;
   }
-
   h1 {
     font-size: 2rem;
   }
-
   h3 {
     font-size: 21px;
   }
-
   h4 {
     font-size: 1.3rem;
   }
-
   .logo {
     display: none;
   }
-
   .logo2 {
     display: block;
   }
@@ -321,8 +310,8 @@ Responsive Media Querries
 Resources
 ------------------------------------------------------------------- */
 .resources {
-  font-size: 12px;
-  color: #535353;
+  font-size: 10px;
+  color: #8b8b8b;
 }
 
 /* -------------------------------------------------------------------
@@ -447,11 +436,9 @@ footer {
   0% {
     top: 15%;
   }
-
   50% {
     top: 20%;
   }
-
   100% {
     top: 15%;
   }
@@ -461,11 +448,9 @@ footer {
   0% {
     top: 15%;
   }
-
   50% {
     top: 20%;
   }
-
   100% {
     top: 15%;
   }
@@ -582,15 +567,13 @@ nav .btn-close:hover:after {
 }
 
 @media screen and (max-width: 48em) {
-  .wrap ul.wrap-nav>li {
+  .wrap ul.wrap-nav > li {
     width: 100%;
     padding: 20px 0;
   }
-
   .wrap ul.wrap-nav {
     padding: 30px 0px 0px;
   }
-
   nav ul {
     opacity: 0;
     visibility: hidden;
@@ -602,49 +585,38 @@ nav .btn-close:hover:after {
   body {
     font-size: 17px;
   }
-
   .before {
     height: 80px;
   }
-
   .card {
     margin-bottom: 0px;
   }
-
   p {
     font-size: 17px;
     padding-left: 15px;
   }
-
   .mt-5 {
     margin-top: 3rem !important;
   }
-
   .sub-title {
     font-size: 17px;
   }
-
   .project-subtitle {
     font-size: 18px;
     font-weight: 500;
   }
-
   h1 {
     font-size: 2.5rem;
   }
-
   h3 {
     font-size: 28px;
   }
-
   h4 {
     font-size: 1.5rem;
   }
-
   .logo {
     display: block;
   }
-
   .logo2 {
     display: none;
   }
@@ -655,15 +627,12 @@ nav .btn-close:hover:after {
   body {
     font-size: 17px;
   }
-
   h3 {
     font-size: 28px;
   }
-
   h4 {
     font-size: 1.5rem;
   }
-
   p {
     font-size: 14px;
   }

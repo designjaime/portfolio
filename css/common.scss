@@ -322,6 +322,8 @@ Responsive Media Querries
 
 }
 
+$a-height: 250px;
+
 /* -------------------------------------------------------------------
 Resources
 ------------------------------------------------------------------- */
@@ -599,6 +601,8 @@ nav .btn-close:hover:after {
   color: #FE4F6C;
 
 }
+
+
 
 @media screen and (max-width:48em) {
   .wrap ul.wrap-nav>li {

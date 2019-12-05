@@ -1,8 +1,4 @@
-.work-sub-project-title {
-    font-weight: 900;
-    margin-top: 16px;
-    margin-bottom: 48px;
-}
+@import url(project_template.css);
 
 .blocktext {
     background-color: #EAF4FA;
@@ -22,78 +18,7 @@
     vertical-align: middle;
 }
 
-.work-sub-project-subtitle {
-    font-weight: 900;
-}
-
-#subtitle {
-    color: #797979;
-    font-weight: 100;
-}
-
 .totorolink {
     font-size: 21px;
     font-weight: 500;
-}
-
-.img-fluid-700maxw,
-.img-fluid-800maxw,
-.img-fluid-900maxw {
-    width: 100%;
-    height: auto;
-}
-
-.img-fluid-700maxw {
-    max-width: 700px;
-}
-
-.img-fluid-800maxw {
-    max-width: 800px;
-}
-
-.img-fluid-900maxw {
-    max-width: 900px;
-}
-
-/* -------------------------------------------------------------------
-Portfolio works
-------------------------------------------------------------------- */
-
-.work-sub-title {
-    /* font-family: 'Lato', 'Sans-serif'; */
-    padding-left: 0px;
-}
-
-.text-body {
-
-    margin-top: 15px;
-    font-size: 1em;
-    /* font-family: 'Lato', 'Sans-serif'; */
-    font-weight: 300;
-    padding-left: 0px;
-}
-
-.list-horizontal li {
-    font-weight: 700;
-    list-style-type: none;
-    display: inline;
-    padding-right: 20px;
-
-}
-
-.list-horizontal-none li {
-    font-weight: 400;
-    list-style-type: none;
-    display: inline;
-    padding-right: 20px;
-    color: #b6b6b6;
-}
-
-
-
-.list-horizontal li:before {
-    content: '\00a0\2022\00a0\00a0';
-    color: rgb(0, 0, 0);
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 16px;
 }
