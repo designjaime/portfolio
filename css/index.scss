@@ -1,3 +1,5 @@
+@import 'common';
+
 $merriweather: 'merriweather',
 serif;
 $poppins: 'poppins',
@@ -5,13 +7,17 @@ sans-serif;
 $dark: #19191A;
 $medium: #646466;
 $light: #7D7D80;
-$break-med: 900px;
-$break-sml: 440px;
 
 .home_project-title {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.4;
+}
+
+#hello-intro {
+  @media screen and (max-width: $break-med) {
+    margin-bottom: 60px;
+  }
 }
 
 #typing-animate {
@@ -147,7 +153,7 @@ $break-sml: 440px;
 
     @media screen and (max-width: $break-sml) {
       height: 140px;
-      padding: 20px;
+      padding: 15px;
     }
 
     .project-data {
@@ -223,6 +229,10 @@ $break-sml: 440px;
   color: #292841;
   border-color: #292841;
   padding: 8px 12px;
+
+  @media screen and (max-width: $break-med) {
+    display: none;
+  }
 }
 
 .btn-outline-dark:hover {
