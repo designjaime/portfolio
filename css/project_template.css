@@ -182,6 +182,10 @@ tr:nth-child(even) {
   background-image: url("../img/parkfinder/main-hero-parkfinder.png");
 }
 
+.hero-foodtracer {
+  background-image: url("../img//foodtracer/export/hero_foodtracer.png");
+}
+
 /*background*/
 .blocktext {
   background-color: #EAF4FA;
