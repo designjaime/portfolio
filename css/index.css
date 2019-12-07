@@ -8,18 +8,6 @@ body {
   margin: auto;
 }
 
-.hero {
-  background-image: url("../img/petguard/main-hero-Petguard.png");
-  background-size: cover;
-  background-position: center;
-  width: 100wh;
-  height: 540px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-}
-
 .center-content {
   width: 400px;
   display: -webkit-box;

@@ -183,7 +183,15 @@ tr:nth-child(even) {
 }
 
 .hero-foodtracer {
-  background-image: url("../img//foodtracer/export/hero_foodtracer.png");
+  background-image: url("../img/foodtracer/export/hero_foodtracer.png");
+}
+
+.hero-carus {
+  background-image: url("../img/foodtracer/export/hero_foodtracer.png");
+}
+
+.hero-motive {
+  background-image: url("../img/Motive/hero_motive.png");
 }
 
 /*background*/
