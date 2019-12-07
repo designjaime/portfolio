@@ -1,14 +1,6 @@
 @import url(project_template.css);
-.blocktext2 {
-  background-color: #f8f8f8;
-  height: 400px;
-  vertical-align: middle;
-}
-
-.blocktext3 {
-  background-color: #f8f8f8;
-  height: 700px;
-  vertical-align: middle;
+.prototype {
+  max-width: 300px;
 }
 
 .totorolink {
