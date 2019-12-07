@@ -9,6 +9,17 @@ body {
   margin: auto;
 }
 
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+}
+
+.full-width-image img {
+  width: 100%;
+}
+
 .center-content {
   width: 400px;
   display: -webkit-box;
@@ -90,6 +101,49 @@ p {
 
 .before {
   height: 100px;
+}
+
+@media screen and (min-width: 424px) {
+  .before .before {
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .before .before {
+    height: 80px;
+  }
+}
+
+/* big margin set */
+.mt-11 {
+  margin-top: 5rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-11 {
+    margin-top: 2.5rem !important;
+  }
+}
+
+.mt-12 {
+  margin-top: 7rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-12 {
+    margin-top: 3.5rem !important;
+  }
+}
+
+.mt-13 {
+  margin-top: 10rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-13 {
+    margin-top: 5rem !important;
+  }
 }
 
 a {
@@ -263,9 +317,6 @@ Responsive Media Querries
 @media (min-width: 320px) {
   body {
     font-size: 14px;
-  }
-  .before {
-    height: 40px;
   }
   .card {
     margin-bottom: 30px;
@@ -579,9 +630,6 @@ nav .btn-close:hover:after {
 @media (min-width: 768px) {
   body {
     font-size: 17px;
-  }
-  .before {
-    height: 80px;
   }
   .card {
     margin-bottom: 0px;
