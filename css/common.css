@@ -42,6 +42,17 @@ body {
   margin-bottom: 48px;
 }
 
+.paragraph-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph-subtitle {
+    font-size: 12px;
+  }
+}
+
 .project-subtitle {
   color: #FE4F6C;
   font-family: "merriweather", serif;
@@ -349,10 +360,6 @@ Responsive Media Querries
   .mt-5 {
     margin-top: 1rem !important;
   }
-  .paragraph-subtitle {
-    font-size: 16px;
-    font-weight: 500;
-  }
   h1 {
     font-size: 2rem;
   }
@@ -646,10 +653,6 @@ nav .btn-close:hover:after {
   }
   .mt-5 {
     margin-top: 3rem !important;
-  }
-  .paragraph-subtitle {
-    font-size: 18px;
-    font-weight: 500;
   }
   h1 {
     font-size: 2.5rem;
