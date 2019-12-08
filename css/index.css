@@ -35,6 +35,20 @@ body {
   margin: auto;
 }
 
+.project-subtitle {
+  color: #FE4F6C;
+  font-family: "merriweather", serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 424px) {
+  .project-subtitle {
+    font-size: 16px;
+  }
+}
+
 li {
   text-align: left;
   list-style-type: none;
@@ -328,12 +342,9 @@ Responsive Media Querries
   .mt-5 {
     margin-top: 1rem !important;
   }
-  .project-subtitle {
+  .paragraph-subtitle {
     font-size: 16px;
     font-weight: 500;
-  }
-  .sub-title {
-    font-size: 14px;
   }
   h1 {
     font-size: 2rem;
@@ -629,10 +640,7 @@ nav .btn-close:hover:after {
   .mt-5 {
     margin-top: 3rem !important;
   }
-  .sub-title {
-    font-size: 17px;
-  }
-  .project-subtitle {
+  .paragraph-subtitle {
     font-size: 18px;
     font-weight: 500;
   }
@@ -882,20 +890,6 @@ nav .btn-close:hover:after {
 @media screen and (max-width: 424px) {
   .project-container .project-details .project-title {
     font-size: 28px;
-  }
-}
-
-.project-container .project-details .project-subtitle {
-  color: #FE4F6C;
-  font-family: "merriweather", serif;
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 24px;
-}
-
-@media screen and (max-width: 424px) {
-  .project-container .project-details .project-subtitle {
-    font-size: 16px;
   }
 }
 
