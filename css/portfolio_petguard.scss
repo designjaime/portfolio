@@ -10,6 +10,25 @@ $break-lg: 1024px;
     font-weight: 500;
 }
 
+#final-screen {
+    color: white;
+    background-color: #2B2C2D;
+
+    .text-body {
+        color: white !important;
+    }
+
+    .row {
+        a {
+            margin-bottom: 15px;
+        }
+    }
+
+    // img {
+    //     width: 100%;
+    // }
+}
+
 #persona1 {
     position: relative;
     overflow: hidden;

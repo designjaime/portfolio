@@ -8,6 +8,19 @@
   font-weight: 500;
 }
 
+#final-screen {
+  color: white;
+  background-color: #2B2C2D;
+}
+
+#final-screen .text-body {
+  color: white !important;
+}
+
+#final-screen .row a {
+  margin-bottom: 15px;
+}
+
 #persona1 {
   position: relative;
   overflow: hidden;

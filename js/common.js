@@ -1,10 +1,10 @@
-$(document).ready(function () {
-    $(".button a").click(function () {
+$(document).ready(function() {
+    $(".button a").click(function() {
         $(".overlay").fadeToggle(200);
         $(this).toggleClass('btn-open').toggleClass('btn-close');
     });
 });
-$('.overlay').on('click', function () {
+$('.overlay').on('click', function() {
     $(".overlay").fadeToggle(200);
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
@@ -14,8 +14,8 @@ $('.overlay').on('click', function () {
 // Auto complete code for Animate.css 
 // Jaime Yoon Logo project-title Animation
 $.fn.extend({
-    animateCss: function (animationName, callback) {
-        var animationEnd = (function (el) {
+    animateCss: function(animationName, callback) {
+        var animationEnd = (function(el) {
             var animations = {
                 animation: 'animationend',
                 OAnimation: 'oAnimationEnd',
@@ -30,7 +30,7 @@ $.fn.extend({
             }
         })(document.createElement('div'));
 
-        this.addClass('animated ' + animationName).one(animationEnd, function () {
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
             $(this).removeClass('animated ' + animationName);
 
             if (typeof callback === 'function') callback();
@@ -42,17 +42,17 @@ $.fn.extend({
 });
 
 $('[data-toggle="popover"]').popover()
-$(".logo").mouseover(function () {
+$(".logo").mouseover(function() {
     $('.logo').animateCss('pulse');
 });
 
-$("[data-toggle='lightbox']").click(function (e) {
+$("[data-toggle='lightbox']").click(function(e) {
     e.preventDefault();
     $(this).ekkoLightbox();
 });
 
 
-$(window).scroll(function () {
+$(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
         $('.scroll-up').fadeIn();
     } else {
@@ -60,7 +60,7 @@ $(window).scroll(function () {
     }
 });
 
-$('a[href="#totop"]').click(function () {
+$('a[href="#totop"]').click(function() {
     $('html, body').animate({
         scrollTop: 0
     }, 'slow');
@@ -68,7 +68,7 @@ $('a[href="#totop"]').click(function () {
 });
 
 // Button Bubble Effects
-$('.button--bubble').each(function () {
+$('.button--bubble').each(function() {
     var $circlesTopLeft = $(this).parent().find('.circle.top-left');
     var $circlesBottomRight = $(this).parent().find('.circle.bottom-right');
 
@@ -193,7 +193,7 @@ $('.button--bubble').each(function () {
 
     btTl.timeScale(2.6);
 
-    $(this).on('mouseover', function () {
+    $(this).on('mouseover', function() {
         btTl.restart();
     });
 });
@@ -202,7 +202,7 @@ $(".jumbotron").css({
     height: $(window).height() + "px"
 });
 
-$(window).on("resize", function () {
+$(window).on("resize", function() {
     $(".jumbotron").css({
         height: $(window).height() + "px"
     });
