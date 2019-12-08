@@ -429,4 +429,8 @@
   margin-top: 55px;
   margin-bottom: 0px;
 }
+
+#features-app-images img {
+  width: 50%;
+}
 /*# sourceMappingURL=portfolio_petguard.css.map */
