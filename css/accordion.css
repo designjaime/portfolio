@@ -108,6 +108,11 @@
   background-image: url("../img/slider/carstomize.png");
 }
 
+.accordion ul li a {
+  /* Default overlay color on background */
+  background: rgba(133, 20, 20, 0.5);
+}
+
 .accordion ul:hover li,
 .accordion ul:focus-within li {
   width: 8%;
@@ -124,7 +129,8 @@
 
 .accordion ul:hover li:hover a,
 .accordion ul:focus-within li:focus a {
-  background: rgba(0, 0, 0, 0.4);
+  /* Remove the overlay color from background */
+  background: rgba(0, 0, 0, 0);
 }
 
 .accordion ul:hover li:hover a *,
@@ -147,7 +153,8 @@
 }
 
 .accordion ul:hover li:hover a {
-  background: rgba(0, 0, 0, 0.4);
+  /* Remove the overlay color from background */
+  background: rgba(0, 0, 0, 0);
 }
 
 .accordion ul:hover li:hover a * {

@@ -120,6 +120,13 @@ $text-offset: $a-height - 90;
             background-image: url("../img/slider/carstomize.png");
         }
 
+        li {
+            a {
+                /* Default overlay color on background */
+                background: rgba(133, 20, 20, 0.5);
+            }
+        }
+
         &:hover li,
         &:focus-within li {
             width: 8%;
@@ -135,7 +142,8 @@ $text-offset: $a-height - 90;
             width: 60%;
 
             a {
-                background: rgba(0, 0, 0, 0.4);
+                /* Remove the overlay color from background */
+                background: rgba(0, 0, 0, 0);
 
                 * {
                     opacity: 1;
@@ -157,7 +165,8 @@ $text-offset: $a-height - 90;
             width: 60% !important;
 
             a {
-                background: rgba(0, 0, 0, 0.4);
+                /* Remove the overlay color from background */
+                background: rgba(0, 0, 0, 0);
 
                 * {
                     opacity: 1 !important;
