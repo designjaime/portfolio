@@ -1,4 +1,5 @@
 body {
+  overflow-x: hidden !important;
   font-family: poppins, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -6,6 +7,17 @@ body {
   letter-spacing: 0.02em;
   /* max-width: 1240px; */
   margin: auto;
+}
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+}
+
+.full-width-image img {
+  width: 100%;
 }
 
 .center-content {
@@ -89,6 +101,49 @@ p {
 
 .before {
   height: 100px;
+}
+
+@media screen and (min-width: 424px) {
+  .before .before {
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .before .before {
+    height: 80px;
+  }
+}
+
+/* big margin set */
+.mt-11 {
+  margin-top: 5rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-11 {
+    margin-top: 2.5rem !important;
+  }
+}
+
+.mt-12 {
+  margin-top: 7rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-12 {
+    margin-top: 3.5rem !important;
+  }
+}
+
+.mt-13 {
+  margin-top: 10rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-13 {
+    margin-top: 5rem !important;
+  }
 }
 
 a {
@@ -263,9 +318,6 @@ Responsive Media Querries
   body {
     font-size: 14px;
   }
-  .before {
-    height: 40px;
-  }
   .card {
     margin-bottom: 30px;
   }
@@ -380,9 +432,6 @@ nav ul li a {
   border-bottom: 2px solid #fff;
   -webkit-transition-property: all .2s linear 0s;
   transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
   font-size: 14px;
   font-weight: 400;
 }
@@ -469,9 +518,6 @@ nav .btn-open:after {
   font-family: "FontAwesome";
   -webkit-transition-property: all .2s linear 0s;
   transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
 }
 
 nav .btn-open:hover:after {
@@ -484,9 +530,6 @@ nav .btn-close:after {
   font-family: "FontAwesome";
   -webkit-transition-property: all .2s linear 0s;
   transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
 }
 
 nav .btn-close:hover:after {
@@ -531,9 +574,6 @@ nav .btn-close:hover:after {
   text-decoration: none;
   -webkit-transition-property: all .2s linear 0s;
   transition-property: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -webkit-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
 }
 
 .wrap ul.wrap-nav li a:hover {
@@ -578,9 +618,6 @@ nav .btn-close:hover:after {
 @media (min-width: 768px) {
   body {
     font-size: 17px;
-  }
-  .before {
-    height: 80px;
   }
   .card {
     margin-bottom: 0px;
