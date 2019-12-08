@@ -110,7 +110,7 @@
 
 .accordion ul li a {
   /* Default overlay color on background */
-  background: rgba(133, 20, 20, 0.5);
+  background: rgba(0, 0, 0, 0.733);
 }
 
 .accordion ul:hover li,
