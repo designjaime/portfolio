@@ -1,10 +1,254 @@
 @import url(project_template.css);
+$break-lg: 1024px;
 
 .prototype {
-max-width: 300px;
+    max-width: 300px;
 }
-  
+
 .totorolink {
     font-size: 21px;
     font-weight: 500;
+}
+
+#persona1 {
+    position: relative;
+    overflow: hidden;
+    margin: 0px 0px 0px 30px;
+    padding: 0px;
+    border: none;
+    width: 955px;
+    height: 756px;
+
+    #id1_1 {
+        border: none;
+        margin: 38px 0px 0px 30px;
+        padding: 0px;
+        border: none;
+        width: 925px;
+        overflow: hidden;
+    }
+
+    #id1_2 {
+        border: none;
+        margin: 91px 0px 0px 54px;
+        padding: 0px;
+        border: none;
+        width: 901px;
+        overflow: hidden;
+    }
+
+    #id1_2 #id1_2_1 {
+        float: left;
+        border: none;
+        margin: 225px 0px 0px 0px;
+        padding: 0px;
+        border: none;
+        width: 217px;
+        overflow: hidden;
+    }
+
+    #id1_2 #id1_2_2 {
+        float: left;
+        border: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        border: none;
+        width: 684px;
+        overflow: hidden;
+    }
+
+    #id1_3 {
+        border: none;
+        margin: 55px 0px 0px 271px;
+        padding: 0px;
+        border: none;
+        width: 684px;
+        overflow: hidden;
+    }
+
+    #id1_4 {
+        border: none;
+        margin: 82px 0px 0px 909px;
+        padding: 0px;
+        border: none;
+        width: 46px;
+        overflow: hidden;
+    }
+
+    #p1dimg1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        width: 218px;
+        height: 816px;
+    }
+
+    #p1dimg1 #p1img1 {
+        width: 218px;
+        height: 816px;
+    }
+
+    #p1inl_img1 {
+        position: relative;
+        width: 2px;
+        height: 11px;
+    }
+
+    .dclr {
+        clear: both;
+        float: none;
+        height: 1px;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .ft0 {
+        font: 11px 'Arial';
+        color: #1c1c1c;
+        line-height: 14px;
+    }
+
+    .ft1 {
+        font: italic 11px 'Arial';
+        color: #1e1e1e;
+        line-height: 14px;
+    }
+
+    .ft2 {
+        font: bold 11px 'Arial';
+        color: #1e1e1e;
+        line-height: 14px;
+    }
+
+    .ft3 {
+        font: bold 16px 'Arial';
+        color: #1c1c1c;
+        line-height: 19px;
+    }
+
+    .ft4 {
+        font: 13px 'Arial';
+        color: #1c1c1c;
+        line-height: 16px;
+    }
+
+    .ft5 {
+        font: 13px 'Arial';
+        color: #1c1c1c;
+        line-height: 21px;
+    }
+
+    .ft6 {
+        font: bold 19px 'Arial';
+        color: #454545;
+        line-height: 22px;
+    }
+
+    .ft7 {
+        font: 16px 'Arial';
+        color: #2b2c2d;
+        line-height: 27px;
+    }
+
+    .ft8 {
+        font: bold 19px 'Arial';
+        color: #252525;
+        line-height: 22px;
+    }
+
+    .ft9 {
+        font: 16px 'Arial';
+        color: #252525;
+        line-height: 18px;
+    }
+
+    .ft10 {
+        font: 16px 'Arial';
+        color: #252525;
+        margin-left: 5px;
+        line-height: 18px;
+    }
+
+    .ft11 {
+        font: bold 19px 'Arial';
+        color: #1e1e1e;
+        line-height: 22px;
+    }
+
+    .ft12 {
+        font: 16px 'Arial';
+        color: #2b2c2d;
+        line-height: 18px;
+    }
+
+    .ft13 {
+        font: 16px 'Arial';
+        color: #2b2c2d;
+        margin-left: 5px;
+        line-height: 18px;
+    }
+
+    .ft14 {
+        font: italic 11px 'Arial';
+        color: #1c1c1c;
+        line-height: 14px;
+    }
+
+    .p0 {
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .p1 {
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .p2 {
+        text-align: left;
+        padding-right: 129px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+
+    .p3 {
+        text-align: left;
+        padding-right: 62px;
+        margin-top: 29px;
+        margin-bottom: 0px;
+    }
+
+    .p4 {
+        text-align: left;
+        margin-top: 53px;
+        margin-bottom: 0px;
+    }
+
+    .p5 {
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .p6 {
+        text-align: left;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+
+    .p7 {
+        text-align: left;
+        margin-top: 29px;
+        margin-bottom: 0px;
+    }
+
+    .p8 {
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
 }
