@@ -35,6 +35,13 @@ body {
   margin: auto;
 }
 
+/* Paragraph title, subtitle, project-subtitle */
+.paragraph-title {
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
 .project-subtitle {
   color: #FE4F6C;
   font-family: "merriweather", serif;
