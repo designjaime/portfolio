@@ -40,7 +40,7 @@
   overflow: hidden;
 }
 
-#persona1 #id1_2 {
+#persona1 .id1_2 {
   border: none;
   margin: 91px 0px 0px 54px;
   padding: 0px;
@@ -49,7 +49,7 @@
   overflow: hidden;
 }
 
-#persona1 #id1_2 #id1_2_1 {
+#persona1 .id1_2 #id1_2_1 {
   float: left;
   border: none;
   margin: 225px 0px 0px 0px;
@@ -59,7 +59,7 @@
   overflow: hidden;
 }
 
-#persona1 #id1_2 #id1_2_2 {
+#persona1 .id1_2 #id1_2_2 {
   float: left;
   border: none;
   margin: 0px 0px 0px 0px;
@@ -87,7 +87,7 @@
   overflow: hidden;
 }
 
-#persona1 #p1dimg1 {
+#persona1 .p1dimg1 {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -96,7 +96,7 @@
   height: 816px;
 }
 
-#persona1 #p1dimg1 #p1img1 {
+#persona1 .p1dimg1 #p1img1 {
   width: 218px;
   height: 816px;
 }
@@ -302,7 +302,7 @@
   overflow: hidden;
 }
 
-#persona2 #id1_2 {
+#persona2 .id1_2 {
   border: none;
   margin: 29px 0px 0px 217px;
   padding: 0px;
@@ -311,7 +311,7 @@
   overflow: hidden;
 }
 
-#persona2 #p1dimg1 {
+#persona2 .p1dimg1 {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -320,7 +320,7 @@
   height: 164px;
 }
 
-#persona2 #p1dimg1 #p1img1 {
+#persona2 .p1dimg1 #p1img1 {
   width: 164px;
   height: 164px;
 }
