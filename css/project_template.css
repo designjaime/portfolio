@@ -178,6 +178,10 @@ tr:nth-child(even) {
   background-image: url("../img/carstomize/hero-carstomize.png");
 }
 
+.hero-radoneyepro {
+  background-image: url("../img/radoneyepro/hero-radoneyepro.png");
+}
+
 /*background*/
 .blocktext {
   background-color: #EAF4FA;
