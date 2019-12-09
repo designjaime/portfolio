@@ -1,0 +1,34 @@
+.boxed {
+  border: 1px solid #9b9b9b;
+  border-radius: .5rem;
+  padding: 1rem;
+  background-color: #00ffbf;
+}
+
+.boxed-nocolor {
+  border: 1px solid #9b9b9b;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.user-flow li::before {
+  position: relative;
+  /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+  content: "";
+  display: inline-block;
+  /* By using an em scale, the arrows will size with the font */
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.2em solid #d1d1d1;
+  border-top: 0.2em solid #d1d1d1;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-right: 0.5em;
+}
+
+.user-flow .box-arrow {
+  list-style: none;
+  font-size: 200%;
+  padding: 1rem;
+}
+/*# sourceMappingURL=motive.css.map */
