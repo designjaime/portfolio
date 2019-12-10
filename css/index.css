@@ -1102,8 +1102,8 @@ h4 {
   background-color: #000000;
   margin-top: 0px;
   margin-bottom: 0px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 20, 20, 0.9)), to(rgba(20, 20, 20, 0.9))), url("../img/Home/Hero_totoro.png");
-  background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)), url("../img/Home/Hero_totoro.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 20, 20, 0.9)), to(rgba(20, 20, 20, 0.9))), url("../img/home/Hero_totoro.png");
+  background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)), url("../img/home/Hero_totoro.png");
   background-position: center;
 }
 
@@ -1132,7 +1132,7 @@ h4 {
   }
   .case-study5 {
     background: #000000;
-    background-image: url("../img/Home/Hero_totoro.png");
+    background-image: url("../img/home/Hero_totoro.png");
   }
 }
 
