@@ -1,0 +1,28 @@
+h5 {
+    display: inline-block;
+    padding: 10px;
+    background: #B9121B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 600px;
+    max-width: 960px;
+}
+
+.boxed-outline {
+    height: 300px;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: rgb(243, 243, 243)
+}
+
+.boxed-outline p {
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 100px;
+}

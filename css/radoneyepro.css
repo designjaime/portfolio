@@ -1,0 +1,29 @@
+h5 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 600px;
+  max-width: 960px;
+}
+
+.boxed-outline {
+  height: 300px;
+  border-radius: .5rem;
+  padding: 1rem;
+  background-color: #f3f3f3;
+}
+
+.boxed-outline p {
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=radoneyepro.css.map */
